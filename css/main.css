@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+    /*슬라이더*/
+    
+    #slider {background-image: url(""); 
+    background-size: cover; width: 100%;
+    background-position: center; height: 100vh;
+    }
+
+
+    /*메인 컨텐츠*/
+
+    #score {background-color: #2b1440; width: 100%; height: 350px; margin: 0 auto;}
+
+    #artist {background-color: yellow; width: 100%; height: 1200px; margin: 0 auto;}
+
+    #banner {width:100%; height:500px; background-color: rebeccapurple; display: flex; align-items: center;}
+
+    #banner > .bannerbox {width:80%; height:200px; margin: 0 auto; background-color: palevioletred; }
+
+    #album {width: 100%; height:650px; background-color: palegoldenrod;  display: flex; flex-wrap:wrap;justify-content: center; }
+    #album  .text {width: 80%; height: 90px; background-color: aquamarine; padding: 30px; margin: 30px 0 0 0; font-size: 30px;}
+    #album > .three_album {width:80%; height:340px; background-color: pink; display: flex; flex-wrap:wrap; align-items: center; justify-content: center; }
+    #album > .three_album  > .one {width: 350px; height: 300px; background-color: red; margin: 5px; }
+    #album > .three_album  > .two {width: 350px; height: 300px; background-color: red; margin: 10px; }
+    #album > .three_album  > .three {width: 350px; height: 300px; background-color: red; margin: 5px; }
+
+    #ticket {width:100%; height:600px; background-color: royalblue;  display: flex; flex-wrap:wrap;justify-content: center;}
+    #ticket .text {width: 80%; height: 90px; background-color: aquamarine;font-size: 30px;  padding: 30px; margin: 30px 0 0 0; }
+
